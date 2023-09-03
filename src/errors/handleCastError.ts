@@ -1,9 +1,8 @@
-import mongoose from 'mongoose';
 import { IGenericErrorMessage } from './interfaces/IGenericErrorMessage';
 
 //it will check if any object id length is large or smaller than stadard length of mongoose object id
 
-const handleCastError = (error: mongoose.Error.CastError) => {
+const handleCastError = (error: any) => {
   const errors: IGenericErrorMessage[] = [
     {
       path: error.path,
