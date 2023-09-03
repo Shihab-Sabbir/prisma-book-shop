@@ -1,5 +1,5 @@
 ### Live Link
-[example.com](https://prisma-book-shop-backend.vercel.app/)
+[https://prisma-book-shop-backend.vercel.app](https://prisma-book-shop-backend.vercel.app/)
 
 ### Application Routes
 
