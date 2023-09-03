@@ -1,2 +1,2 @@
-# University-Management-System_Auth
+# Prisma-book-shop
 # prisma-book-shop

@@ -17,6 +17,9 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api/v1', routes);
 
+app.use((req, res) => {
+  res.send('Wellcome to prisma book shop !');
+});
 
 //global error handler
 app.use(globalErrorHandler);
